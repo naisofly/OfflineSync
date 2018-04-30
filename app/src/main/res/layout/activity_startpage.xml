@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#3498db">
+
+    <TextView
+        android:id="@+id/welcome_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO IBM AIR"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter the Flight No."
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/etFlightNo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="AI0000"
+            android:layout_marginLeft="90dp"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/btn_go"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/etFlightNo"
+            android:rotation="90"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/airplane_button" />
+    </LinearLayout>
+
+</LinearLayout>

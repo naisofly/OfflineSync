@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Offline Data Synch ELELR</string>
+    <string name="activity_order_quantity_label">Quantity:</string>
+    <string name="init_message">Collection initialized</string>
+    <string name="action_toolbar">Pre-Flight Sync</string>
+    <string name="pre_sync_check">Do a Pre-Flight Synch from the menu</string>
+</resources>

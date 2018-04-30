@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".ShowSalesActivity"
+    android:background="@android:color/black">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/labelseatno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seat No"
+        android:textSize="25sp"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:id="@+id/labelitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@+id/labelseatno"
+        android:layout_marginLeft="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
+<ListView
+android:id="@+id/showsales_listview"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="20dp"
+android:padding="10dp"/>
+</LinearLayout>
